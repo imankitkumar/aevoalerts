@@ -1,7 +1,7 @@
 const axios = require("axios");
 const Bot = require("node-telegram-bot-api");
 
-const botToken = "6627774834:AAGLdjgqi5Z3xhAXK9-RfoV_b9D0Cw9kWX8";
+const botToken = "6627774834:AAEKHO07fL2m7tk_Cu40f8tUwYtrsvjUJ_Q";
 const tgId = "@aevolistings";
 let listings = [];
 
@@ -33,4 +33,4 @@ const updateNewListings = async () => {
   }
 };
 
-setInterval(updateNewListings, 0.1 * 60 * 1000);
+setInterval(updateNewListings, 2 * 60 * 1000);
