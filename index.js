@@ -33,4 +33,4 @@ const updateNewListings = async () => {
   }
 };
 
-setInterval(updateNewListings, 5 * 60 * 1000);
+setInterval(updateNewListings, 0.1 * 60 * 1000);
